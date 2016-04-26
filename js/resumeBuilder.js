@@ -78,11 +78,11 @@ var education = {
     }
   ]
 };
-var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[0].name);
+var formattedSchoolName = HTMLschoolName.replace("#", "http://www.freecodecamp.com").replace("%data%", education.schools[0].name);
 var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[0].degree);
 var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[0].years);
 var formattedSchoolLoc = HTMLschoolLocation.replace("%data%", education.schools[0].location);
-var formattedSchoolName2 = HTMLschoolName.replace("%data%", education.schools[1].name);
+var formattedSchoolName2 = HTMLschoolName.replace("#", "http://www.plymouth.edu").replace("%data%", education.schools[1].name);
 var formattedSchoolDegree2 = HTMLschoolDegree.replace("%data%", education.schools[1].degree);
 var formattedSchoolDates2 = HTMLschoolDates.replace("%data%", education.schools[1].years);
 var formattedSchoolLoc2 = HTMLschoolLocation.replace("%data%", education.schools[1].location);
